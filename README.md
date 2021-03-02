@@ -1,10 +1,10 @@
 # Image Classification using CNN models:
-Classification of Fashion products using different neural network based models -- Feedforward, CNN and VGG, etc.
+Classification of Fashion (MNIST) products using different neural network based models -- Feedforward, CNN and VGG, etc.
 
 
 ## Data
 Fashion-MNIST is a dataset of Zalando's article images—consisting of a training set of 60,000 examples and a test set of 10,000 examples. Each example is a 28x28 grayscale image, associated with a label from 10 classes. 
-You can download it here -- https://github.com/zalandoresearch/fashion-mnist
+Download it here -- https://github.com/zalandoresearch/fashion-mnist
 
 
 | Target Class  |   Definition  |
@@ -30,7 +30,7 @@ You can download it here -- https://github.com/zalandoresearch/fashion-mnist
 6. VGG + Batch Normalization
 
 ## Data Augmentation:
-Since, my data set only had 60,000 test cases, which is quite less for a deep learning model (for eg: VGG). So, I have used data (image) augmentation technique to increase the number of images and also to improve the quality of images. 
+Since, our data set only had 60,000 test cases, which is quite less for a deep learning model (for eg: VGG). So, we used data (image) augmentation technique to increase the number of images and also to improve the quality of images. 
 
 ## Overfitting and Underfitting:
 - Dropout
